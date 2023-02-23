@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Nav Bar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav>
+      <a class="logo" href="#">HTML WEB</a>
+      <!--menu logo-->
+      <input type="checkbox" name="menu-logo" id="box-1" />
+      <label for="box-1" id="toggler"
+        ><img src="ellipsis-vertical-solid.svg" alt="menu-logo"
+      /></label>
+      <ul id="menu">
+        <li><a href="#">Anasayfa</a></li>
+        <li id="servis">
+          <a href="#">Servisler</a>
+          <ul class="altmenu servis">
+            <li><a href="">Web Tasarim</a></li>
+            <li><a href="">Web Guncelleme</a></li>
+          </ul>
+        </li>
+        <li id="program">
+          <a href="#">Program</a>
+          <ul class="altmenu program">
+            <li><a href="#">Web</a></li>
+            <li><a href="#">Masaüstü</a></li>
+            <li>
+              <a href="#">İşletim</a>
+              <ul class="altmenu isletim">
+                <li><a href="">Android</a></li>
+                <li><a href="">Linux</a></li>
+                <li><a href="">İos</a></li>
+                <li><a href="">Pardus</a></li>
+                <li><a href="">Windows</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li id="iletisim"><a href="#">İletişim</a></li>
+        <li id="sube"><a href="#">Şubeler</a></li>
+      </ul>
+      <!-- menu ul end-->
+    </nav>
+  </body>
+</html>
